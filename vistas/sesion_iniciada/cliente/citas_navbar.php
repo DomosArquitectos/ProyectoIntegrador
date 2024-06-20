@@ -158,6 +158,9 @@
                                 <button type="submit" class="btn btn-primary">
                                     Registrar Solicitud
                                 </button>
+                                <button type="submit" class="btn btn-danger">
+                                    Cancelar Solicitud
+                                </button>
                             </div>
                         </form>
                     </div>
