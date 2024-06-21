@@ -8,7 +8,7 @@ $correo = $_POST['correo'];
 $contraseña = $_POST['contraseña'];
 $contraseña = hash('sha512', $contraseña);
 
-$validar_login = mysqli_query($conexion,"SELECT * FROM usuarios WHERE correo='$correo' and contraseña='$contraseña'");
+$validar_login = mysqli_query($conn,"SELECT * FROM usuarios WHERE correo='$correo' and contraseña='$contraseña'");
 
 // si encuentra dato valido redirige
 if(mysqli_num_rows($validar_login) > 0){
