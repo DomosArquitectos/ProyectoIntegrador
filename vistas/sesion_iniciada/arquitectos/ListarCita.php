@@ -113,7 +113,7 @@
         echo "<div class='alert alert-warning' role='alert'>No hay datos para mostrar...</div>";
     }
 ?>
-    <audio id="notification-sound" src="Wood.mp3" preload="auto"></audio>
+    <audio id="notification-sound" src="..//Wood.mp3" preload="auto"></audio>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
     $(document).ready(function() {
